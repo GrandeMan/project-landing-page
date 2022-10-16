@@ -5,17 +5,20 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: #CAD2C5;
+    color: #250001;
 }
 
 /* header */
 
 .header {
-    color: white;
-    background-color: #1f2937;
+    color: #F18F01;
+    background-color: #2F3E46;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .logo {
@@ -23,17 +26,18 @@ body {
     font-weight: 900;
     padding: 8px;
     display: flex;
+  
 }
 
  a { 
     flex-direction: row;
     text-decoration: none;
-    color: white;
+    color: #F18F01;
     padding: 8px;
 }
 
  a:hover {
-    color: #3882F6;
+    color:#CAD2C5;
 }
 
 /*-----content-----*/
@@ -49,7 +53,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #1f2937;
+    background-color: #2F3E46;
     padding: 24px;
     gap: 32px;
 }
@@ -57,10 +61,15 @@ body {
 .welcome-text {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #F18F01;
     justify-content: space-around;
 }
 
+.welcome-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
 
 .welcome-sub {
     display: flex;
@@ -68,13 +77,14 @@ body {
 
  .section-2 {
     display: flex;
-    background-color: white;
+    background-color: #CAD2C5;
     flex-direction: column;
     margin: 50px 100px;
 }
 
 .section-header {
     display: flex;
+    color:#2F3E46;
     padding: 32px;
     padding-top: 0px;
     justify-content: center;
@@ -89,6 +99,7 @@ body {
 }
 
  .tile > p {
+    color: #2F3E46;
     display: flex;
     text-align: center;
     font-size: small;
@@ -107,14 +118,14 @@ body {
     justify-content: center;
     width: 100px;
     height: 100px;
-    border: #3882F6 solid ;
+    border: 2px #F18F01 solid ;
     border-radius: 12px;
 }
 
 .section-3 {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: #84A98C;
     padding: 100px 200px;
 }
 
@@ -123,20 +134,20 @@ body {
     font-size: 36px;
     font-weight:1, 300;
     font-style: italic;
-    color: #1f2937;
+    color:;
     margin-bottom: 0px;
 }
 
 .quoter {
     display: flex;
     align-self: flex-end;
-    color: #1f2937;
+    color:#354F52;
 }
 .section-4 {
     display: flex;
-    background-color: white;
+    background-color: #84A98C;
     justify-content: space-around;
-    background-color: #3882F6;
+    background-color: #2F3E46;
     align-items: center;
     margin: 100px;
     border-radius: 16px;
@@ -146,10 +157,10 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: #3882F6; 
+    color: #F18F01;
+    background-color:#354F52 ; 
     padding: 8px;
-    border: #e5e7eb solid;
+    border: #F18F01 solid;
     border-radius: 8px;
     height: 32px;
     width: 96px;
@@ -160,7 +171,7 @@ button {
     display: flex;
     font-weight: 700;
     font-style: bold;
-    color: white;
+    color: #84A98C;
     margin: 0;
     padding: 16px;
     padding-bottom: 0px;
@@ -168,7 +179,7 @@ button {
 
 .cta-sub {
     display: flex;
-    color: white;
+    color: #84A98C;
     margin: 0;
     padding: 16px;
     padding-top: 0px;
@@ -176,10 +187,10 @@ button {
 
 footer {
     font-size: 12px;
-    color: #e5e7eb;
+    color:#CAD2C5;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #2F3E46;
     padding: 16px;
 }
